@@ -40,7 +40,7 @@ const callGenerateEndpoint = async () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-          <h1> <em id='ai'></em> Unleash the power of AI-generated value ladder with Ladder</h1>
+          <h1> <em id='ai'></em> Unleash the power of AI-generated value ladder for your business</h1>
           </div>
           <div className="header-subtitle">
           <h2>Transform your business with a personalized value ladder that's tailored to your unique audience</h2>
