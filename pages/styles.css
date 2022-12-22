@@ -27,12 +27,12 @@ body {
     flex-flow: column nowrap;
     gap: 10px;
     height: fit-content;
-    max-width: 975px;
+    max-width: 652px;
     overflow: auto;
     padding: 50px;
     position: relative;
     width: auto;
-    gap: 64px;
+    gap: 36px;
 }
 
 .header {    
@@ -51,17 +51,19 @@ body {
 .header-title h1 {
     width: 100%;
     font-weight: 700;
-    font-size: 72px;
+    font-size: 60px;
     letter-spacing: -4px;
     line-height: 1.2em;
-    text-align: center;
+    text-align: left;
     margin: 0;
+    max-width: 1200px;
 }
 
 .header-subtitle h2 {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    text-align: left;
     line-height: 1.4em;
     color: rgba(255, 255, 255, 0.75);
 }
@@ -72,10 +74,10 @@ body {
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
-    gap: 16px;
+    gap: 36px;
     height: min-content;
     padding: 0px;
-    width: min-content;
+    width: 100%;
 }
 
 .prompt-box {
@@ -88,7 +90,7 @@ body {
     place-content: flex-start;
     align-items: flex-start;
     background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 16px;
+    border-radius: 24px;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
@@ -108,13 +110,14 @@ body {
     letter-spacing: 0px;
     line-height: 1.6em;
     text-align: start;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.337);
     text-decoration: none;
     text-transform: none;
 }
 
 textarea {
     font-family: 'Manrope', sans-serif;
+    width: fill;
 }
 
 
@@ -127,7 +130,7 @@ textarea {
     display: flex;
     place-content: center;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 0 0 auto;
     flex-flow: row nowrap;
     gap: 12px;
@@ -136,6 +139,7 @@ textarea {
     padding: 0px;
     position: relative;
     width: 100%;
+    color:rgb(0, 0, 0);
 }
 
 .key-stroke {
@@ -170,9 +174,9 @@ textarea {
 }
 
 .generate-button {
-    place-content: flex-start;
-    align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    place-content: center;
+    align-items: center;
+    background-color: rgb(211, 255, 66);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -183,7 +187,7 @@ textarea {
     padding: 16px 24px;
     position: relative;
     text-decoration: none;
-    width: min-content;
+    width: fill;
     will-change: transform;
     cursor: pointer;
 }
@@ -198,7 +202,7 @@ textarea {
 }
 
 .generate p {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 0;
 }
 
@@ -270,7 +274,7 @@ textarea {
 
 .output {
     place-content: center flex-start;
-    align-items: center;
+    align-items: left;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
@@ -321,7 +325,7 @@ textarea {
 }
 
 .output-content p {
-    text-align: center;
+    text-align: left;
     white-space: pre-line;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -368,8 +372,10 @@ textarea {
         font-size: 50px;
     }
 
-    .header-subtitle h2 {
-        text-align: center;
+    .header-subtitle {
+        align-content: flex-end;
+        text-align: left;
+        
     }
 
     .key-stroke, .or {
