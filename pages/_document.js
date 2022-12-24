@@ -8,7 +8,7 @@ export default function Document() {
         <meta property="og:description" content="Create an AI generated value ladder and filter out your dream customer" key="description"/>
         <meta
           property="og:image"
-          content="https://cdn.buildspace.so/courses/gpt3-writer/project-og.jpg"
+          content="https://upcdn.io/12a1xuW/raw/Twitter%20post%20-%202-5o2N.png"
         />
         <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
